@@ -20,9 +20,16 @@
 
 ![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/coffee_proximity_map.png)
 
-- To calculate distance between stores we will need to join the data to itself where *Store ID* is **NOT** equal:
+- To calculate distance between stores we will need to join the data to itself where *Store ID* is ***NOT*** equal:
 
-![]()
+![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/store_id_join.png)
+
+- We will use the ***Great-Circle Distance*** formula for our calculation in a calculated field:
+  * 3959 * ACOS(
+    SIN(RADIANS([Latitude])) * SIN(RADIANS([latitude (Sheet11)])) +
+    COS(RADIANS([Latitude])) * COS(RADIANS([latitude (Sheet11)])) *
+    COS(RADIANS([longitude (Sheet11)])) - (RADIANS([Longitude]))
+    )
 
 **Analysis & Insights**
 
