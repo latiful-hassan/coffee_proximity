@@ -11,7 +11,14 @@
 
 **Techniques & Process**
 
--
+- Connect to data
+- Use *Longitude* and *Latitude* to create map
+- Applied *Monthly Turnover* in colour shelf
+- Applied *Months Open* in size shelf
+- Applied *Store ID* in detail shelf
+- Used the company's logo as a custom shape:
+
+![]()
 
 **Analysis & Insights**
 
