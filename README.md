@@ -6,7 +6,7 @@
 **Task**
 
 - Using the supplied store data create maps for the following:
-  * All current store locations - shwoing monthly turnover and number of months the store has been operation
+  * All current store locations - showing monthly turnover and number of months the store has been operation
   * Calculate the distance between stores and hightlight the sotres whicha re more tha 0.5 miles from another branch
 
 **Techniques & Process**
@@ -35,10 +35,15 @@
 
 ![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/coffee_proximity_map_with_distance.png)
 
-- Used **Mapbox** to add a customer map:
+- Used **Mapbox** to add a custom map:
 
-![]()
+![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/custom_map.png)
 
 **Analysis & Insights**
 
--
+- From the visualisation, we can see that the following stores are not within the criterion:
+  * **Amsterdam Avenue** (1.0292 miles)
+  * **Pitt** (0.7734 miles)
+  * **W 59th Street** (0.7072 miles)
+  * **Bradhurst Avenue** (0.5656 miles)
+  * **Morton Street** (0.5626 miles)
