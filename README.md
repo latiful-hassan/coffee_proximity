@@ -25,11 +25,15 @@
 ![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/store_id_join.png)
 
 - We will use the ***Great-Circle Distance*** formula for our calculation in a calculated field:
-  * 3959 * ACOS(
+  * 3959 * ACOS (
     SIN(RADIANS([Latitude])) * SIN(RADIANS([latitude (Sheet11)])) +
-    COS(RADIANS([Latitude])) * COS(RADIANS([latitude (Sheet11)])) *
-    COS(RADIANS([longitude (Sheet11)])) - (RADIANS([Longitude]))
+    COS(RADIANS([Latitude])) * COS(RADIANS([latitude (Sheet11)])) * COS(RADIANS([longitude (Sheet11)]) - RADIANS([Longitude]))
     )
+- Created another calculated field with an **IIF** statement to evaluate which stores are too far:
+  * IIF(MIN([Distance]) > 0.5, "Yes", "No")
+- After some additional formatting we can see which stores are too far, and the size depicts how far:
+
+![]()
 
 **Analysis & Insights**
 
