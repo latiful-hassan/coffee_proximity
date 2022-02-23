@@ -33,7 +33,7 @@
   * IIF(MIN([Distance]) > 0.5, "Yes", "No")
 - After some additional formatting we can see which stores are too far, and the size depicts how far:
 
-![]()
+![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/coffee_proximity_map_with_distance.png)
 
 **Analysis & Insights**
 
