@@ -31,9 +31,13 @@
     )
 - Created another calculated field with an **IIF** statement to evaluate which stores are too far:
   * IIF(MIN([Distance]) > 0.5, "Yes", "No")
-- After some additional formatting we can see which stores are too far, and the size depicts how far:
+- The **Too Far** calculated field is applied to colour and **Distance** to size:
 
 ![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/coffee_proximity_map_with_distance.png)
+
+- Used **Mapbox** to add a customer map:
+
+![]()
 
 **Analysis & Insights**
 
