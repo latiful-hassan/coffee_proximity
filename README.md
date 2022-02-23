@@ -18,6 +18,10 @@
 - Applied *Store ID* in detail shelf
 - Used the company's logo as a custom shape:
 
+![](https://github.com/latiful-hassan/coffee_proximity/blob/main/coffee_proximity_screenshots/coffee_proximity_map.png)
+
+- To calculate distance between stores we will need to join the data to itself where *Store ID* is **NOT** equal:
+
 ![]()
 
 **Analysis & Insights**
